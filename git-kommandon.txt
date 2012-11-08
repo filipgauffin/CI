@@ -1,0 +1,20 @@
+Vi kör med varsitt branch när vi utvecklar och mergar ihop dom i master-branchet då och då.
+
+Användbara kommandon:
+
+Skapa branch:
+git checkout -b magnus
+
+Göra commit:
+git add -A
+git commit -m "Koncis kommentar"
+
+Pusha till din branch på servern:
+git push origin magnus
+
+Merga med master:
+git pull origin master
+
+Pusha till master:
+OBS! merga alltid med master först
+git push origin magnus:master
